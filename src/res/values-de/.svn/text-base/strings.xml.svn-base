@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+ 
+    <!-- Manifest-Data -->
+    <string name="app_name">NEBBA</string>
+    <string name="title_activity_about">NEBBA About</string>
+    
+    <!--  App-Data -->
+    <string name="description">NEBBA steht für "Noch eine Bildbearbeitungs-App" und kann kleinere Bildmanipulationen vornehmen.</string>
+
+    <!-- Messages -->
+    <string name="error">Ein Fehler ist aufgetreten</string>
+    <string name="error_saving_picture">Fehler beim Speichern des Bildes</string>
+    <string name="error_save">Konnte Bild nicht speichern</string>
+    <string name="error_creating_dir">Kein externer Speicher gefunden, konnte Verzeichnis nicht erzeugen</string>
+    <string name="external_storage_not_found">Externer Speicher nicht gefunden, verwende internen Cache</string>
+    <string name="no_camera_found">Kamera nicht gefunden!</string>
+    <string name="canceled">Aktion abgebrochen</string>
+    <string name="select_picture">Bild auswählen:</string> 
+    <string name="select_picture_first">Bild aus Galerie auswählen oder ein neues mit der Kamera aufnehmen</string>
+    <string name="select_tool">Tool auswählen</string>
+    <string name="select_tool_first">Zuerst Tool auswählen</string>
+    <string name="empty"></string>
+    <string name="picture_saved_in_file">Bild gespeichert in Datei: </string>
+    <string name="changes_applied">Änderungen übernommen</string>
+    <string name="error_saving_changes">Fehler beim Speichern der Änderungen</string>
+    <string name="please_wait">Bitte warten</string>
+    <string name="applying_changes">Änderungen werden durchgeführt</string>
+    <string name="press_accept_button">Accept-Button drücken</string>
+    <string name="set_options_and_press_accept_button">Optionen wählen und Accept-Button drücken</string>
+    <string name="error_oome">Zuwenig Speicher</string>
+    <string name="error_oome_default_load">Zuwenig Speicher, Demo-Bild geladen</string>
+    <string name="file_not_found">Datei nicht gefunden</string>
+    <string name="loading_bitmap">Bild wird geladen</string>
+
+    <!-- ActionMenu-Items -->
+    <string name="action_take_picture_with_camera">Bild mit Kamera aufnehmen</string>
+    <string name="action_get_picture_from_gallery">Bild aus Galerie auswählen</string>
+    <string name="action_save_picture">Bild speichern</string>
+    <string name="action_about">Über</string>
+    <string name="action_exit">Beenden</string>
+
+    <!-- Spinner Items -->
+    <string-array name="available_tools">
+        <item>Tool auswählen:</item>
+        <item>Sättigung</item>
+        <item>Einfärben</item>
+        <item>HUE ändern</item>
+        <item>Helligkeit</item>
+        <item>Kontrast</item>
+        <item>Histogram Ausgleich</item>
+        <item>Weichzeichnen</item>
+        <item>Schärfen</item>
+        <item>Seam Carving</item>
+    </string-array>
+    
+    <!-- Layout Items -->
+    <string name="cb_removeSelected">Markierung entfernen</string>
+    <string name="vertical">Vertikal</string>
+    <string name="horizontal">Horizontal</string>
+    <string name="seams_to_remove">Seams zu entfernen:   </string>
+    <string name="chosen_color_red">Gewählte Farbe: ROT</string>
+    <string name="chosen_color_green">Gewählte Farbe: GRÜN</string>
+    <string name="chosen_color_blue">Gewählte Farbe: BLAU</string>
+    
+
+    <string name="temp_message">tu irgendwas!</string>
+    
+</resources>

@@ -1,0 +1,70 @@
+10
+
+dir
+85
+https://svn.thesysadmin.net/svn/nebba/master/res
+https://svn.thesysadmin.net/svn/nebba
+
+
+
+2014-08-15T14:22:33.243574Z
+83
+martin
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+157416f6-e2de-468f-b307-ab196aa9454b
+
+drawable
+dir
+
+drawable-hdpi
+dir
+
+drawable-ldpi
+dir
+
+drawable-mdpi
+dir
+
+drawable-xhdpi
+dir
+
+drawable-xxhdpi
+dir
+
+layout
+dir
+
+layout-land
+dir
+
+menu
+dir
+
+values
+dir
+
+values-de
+dir
+
+values-v11
+dir
+
+values-v14
+dir
+
+values-w820dp
+dir
+

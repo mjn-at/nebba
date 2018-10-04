@@ -1,0 +1,67 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayoutAbout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:layout_marginTop="10dp"
+    android:orientation="vertical" >
+    
+
+    <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:orientation="horizontal" >
+      
+		<LinearLayout
+        	android:layout_width="wrap_content"
+        	android:layout_height="match_parent"
+        	android:orientation="vertical" >
+
+      		<ImageView
+          		android:layout_width="wrap_content"
+          		android:layout_height="wrap_content"
+          		android:layout_gravity="top"
+          		android:layout_marginRight="10dp"
+          		android:contentDescription="@string/empty"
+          		android:src="@drawable/ic_launcher" />
+      
+		</LinearLayout>
+		
+		<LinearLayout
+        	android:layout_width="match_parent"
+        	android:layout_height="match_parent"
+        	android:orientation="vertical" >
+
+        	<TextView
+        		android:layout_width="wrap_content"
+          		android:layout_height="wrap_content"
+          		android:text="@string/app_name"
+          		android:textStyle="bold" />
+        	
+        	<TextView
+          		android:layout_width="wrap_content"
+          		android:layout_height="wrap_content"
+          		android:text="@string/version"
+          		android:textSize="11.5sp" />
+
+        	<TextView
+          		android:layout_width="wrap_content"
+          		android:layout_height="wrap_content"
+          		android:layout_marginTop="8dp"
+          		android:text="@string/description"
+          		android:textSize="11.0sp" />
+        	
+        	<TextView
+          		android:layout_width="wrap_content"
+          		android:layout_height="wrap_content"
+          		android:layout_marginTop="8dp"
+          		android:text="@string/licence"
+          		android:textSize="12.5sp" />
+        </LinearLayout>
+        	
+	</LinearLayout>  
+    
+</LinearLayout>
+   

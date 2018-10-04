@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+ 
+    <!-- Manifest-Data -->
+    <string name="app_name">NEBBA</string>
+    <string name="title_activity_about">NEBBA About</string>
+    
+    <!--  App-Data -->
+    <string name="description">NEBBA stands for "Noch eine Bildbearbeitungs-App" and is a small image manipulation app</string>
+    <string name="author">Martin Mueller</string>
+    <string name="version">Version: 1.00</string>
+    <string name="licence">License: GPL v2</string>
+
+    <!-- Messages -->
+    <string name="error">Error occurred</string>
+    <string name="error_saving_picture">Error saving picture</string>
+    <string name="error_save">Could not save picture</string>
+    <string name="error_creating_dir">External storage not found, could not create directory</string>
+    <string name="external_storage_not_found">External storage not found, using internal cache</string>
+    <string name="no_camera_found">Camera not found!</string>
+    <string name="canceled">Action canceled</string>
+    <string name="select_picture">Select picture:</string> 
+    <string name="select_picture_first">Select a picture from gallery or take a new one with you camera</string>
+    <string name="select_tool">Select tool</string>
+    <string name="select_tool_first">Select a tool first</string>
+    <string name="empty"></string>
+    <string name="picture_saved_in_file">picture saved in file</string>
+    <string name="changes_applied">changes saved</string>
+    <string name="error_saving_changes">Error saving changes</string>
+    <string name="please_wait">Please wait</string>
+    <string name="applying_changes">Applying changes</string>
+    <string name="press_accept_button">Press accept-button</string>
+    <string name="set_options_and_press_accept_button">Set options and press accept-button</string>
+    <string name="error_oome">Not enough memory</string>
+    <string name="error_oome_default_load">Not enough memory, Demo-Image loaded</string>
+    <string name="file_not_found">File not found</string>
+    <string name="loading_bitmap">Loading bitmap</string>
+    
+
+    <!-- ActionMenu-Items -->
+    <string name="action_take_picture_with_camera">Take picture with camera</string>
+    <string name="action_get_picture_from_gallery">Get picture from gallery</string>
+    <string name="action_save_picture">Save Picture</string>
+    <string name="action_about">About</string>
+    <string name="action_exit">Exit</string>
+
+    <!-- Spinner Items -->
+    <string-array name="available_tools">
+        <item>Select tool:</item>
+        <item>Saturation</item>
+        <item>Colorize</item>
+        <item>Change HUE</item>
+        <item>Brightness</item>
+        <item>Contrast</item>
+        <item>Histogram equalization</item>
+        <item>Blur</item>
+        <item>Sharpness</item>
+        <item>Seam Carving</item>
+    </string-array>
+    
+    <!-- Layout Items -->
+    <string name="cb_removeSelected">remove selected area</string>
+    <string name="vertical">vertical</string>
+    <string name="horizontal">horizontal</string>
+    <string name="seams_to_remove">Seams to remove:   </string>
+    <string name="chosen_color_red">Chosen Color: RED</string>
+    <string name="chosen_color_green">Chosen Color: GREEN</string>
+    <string name="chosen_color_blue">Chosen Color: BLUE</string>
+
+    <string name="temp_message">do something!</string>
+    
+</resources>

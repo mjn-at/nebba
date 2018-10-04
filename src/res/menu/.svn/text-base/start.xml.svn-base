@@ -1,0 +1,45 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="net.thesysadmin.nebba.StartActivity" >
+
+    <group android:id="@+id/group_picture"
+        android:orderInCategory="50">
+        <item 
+            android:id="@+id/action_take_picture_with_camera"
+            android:title="@string/action_take_picture_with_camera"
+            android:showAsAction="always"
+            android:icon="@drawable/ic_action_camera"
+            android:orderInCategory="10">
+        </item>
+        <item
+            android:id="@+id/action_get_picture_from_gallery"
+            android:icon="@drawable/ic_action_picture"
+            android:orderInCategory="20"
+            android:showAsAction="always"
+            android:title="@string/action_get_picture_from_gallery">
+        </item>
+        </group>
+    <group android:id="@+id/group_main"
+        android:orderInCategory="100" >
+
+        <item
+            android:id="@+id/action_save"
+            android:icon="@drawable/ic_action_save"
+            android:orderInCategory="30"
+            android:showAsAction="always"
+            android:title="@string/action_save_picture" />
+        <item
+            android:id="@+id/action_about"
+            android:icon="@drawable/ic_action_about"
+            android:orderInCategory="50"
+            android:showAsAction="ifRoom"
+            android:title="@string/action_about"/>
+        
+        <item
+            android:id="@+id/action_close"
+            android:icon="@drawable/ic_action_remove"
+            android:orderInCategory="100"
+            android:showAsAction="ifRoom"
+            android:title="@string/action_exit"/>
+    </group>
+</menu>

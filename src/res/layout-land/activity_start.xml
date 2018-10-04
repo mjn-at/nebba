@@ -1,0 +1,154 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayoutStart"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:baselineAligned="false" >
+    
+    <LinearLayout 
+        android:id="@+id/LayoutControls" 
+        android:layout_width="match_parent" 
+        android:layout_height="match_parent" 
+        android:layout_weight="2" 
+        android:background="@color/grey" 
+        android:baselineAligned="false" 
+        android:gravity="bottom" 
+        android:orientation="vertical">
+        
+        <LinearLayout android:id="@+id/Spinner_Zoom"
+		    android:layout_width="match_parent" 
+        	android:layout_height="wrap_content" 
+			android:orientation="horizontal"
+			android:gravity="top" >
+			
+                    <Spinner 
+            android:id="@+id/SpinnerTool" 
+            android:layout_width="wrap_content" 
+            android:layout_height="wrap_content"
+            android:layout_weight="3" />
+                    
+                            <ZoomControls
+            android:id="@+id/mZoomControls"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+			
+            </LinearLayout>
+
+
+                
+
+     
+		<SeekBar android:id="@+id/SeekBarToolValue" 
+		    android:layout_width="match_parent" 
+		    android:layout_height="wrap_content" 
+		    android:max="510" 
+		    android:progress="255" /> 
+		    
+			    			<TextView
+            	android:id="@+id/TextViewExtraInfo"
+            	android:layout_width="fill_parent"
+            	android:layout_height="wrap_content"
+            	android:paddingRight="5dp"
+            	android:paddingBottom="5dp"
+            	android:paddingLeft="5dp"
+            	android:paddingTop="5dp"
+            	android:textAppearance="?android:attr/textAppearanceSmall"
+            	android:textColor="@color/white"/>
+			    
+		<LinearLayout android:id="@+id/Buttons"
+		    android:layout_width="match_parent" 
+        	android:layout_height="wrap_content" 
+			android:orientation="horizontal"
+			android:gravity="top" >
+       		
+			<ImageView android:id="@+id/ButtonUndoButton" 
+			    android:layout_width="wrap_content" 
+			    android:layout_height="wrap_content" 
+			    android:src="@drawable/ic_action_reply" 
+			    android:onClick="undoButtonPressed" 
+			    android:contentDescription="@string/empty"
+			    android:layout_weight="1" />
+		    
+		    <ImageView android:id="@+id/ButtonRedoButton" 
+		        android:layout_width="wrap_content" 
+		        android:layout_height="wrap_content" 
+		        android:src="@drawable/ic_action_forward" 
+		        android:onClick="redoButtonPressed" 
+		        android:contentDescription="@string/empty"
+		        android:layout_weight="1" />
+			
+			<ImageView android:id="@+id/ButtonAcceptButton" 
+			    android:layout_width="wrap_content" 
+			    android:layout_height="wrap_content" 
+			    android:src="@drawable/ic_action_accept" 
+			    android:onClick="acceptButtonPressed" 
+			    android:contentDescription="@string/empty"
+			    android:layout_weight="1" />
+			
+
+
+		</LinearLayout>
+		<LinearLayout android:id="@+id/Extras"
+		    android:layout_width="match_parent" 
+        	android:layout_height="wrap_content" 
+			android:orientation="vertical" >
+		
+
+			
+					 	<RadioGroup
+		 	    android:id="@+id/OptionDirections"
+		 	    android:layout_width="wrap_content"
+		 	    android:layout_height="wrap_content"
+		 	    android:orientation="horizontal" >
+		 	    
+		 	    <RadioButton
+		 	        android:id="@+id/OptionVertical"
+		 	        android:layout_width="wrap_content"
+		 	  	 	android:layout_height="wrap_content"
+		 	  	 	android:layout_weight="1"
+		 	  	 	android:textColor="@color/white"
+		 	  	 	android:text="@string/vertical" />
+		 	    
+		 	    <RadioButton
+		 	        android:id="@+id/OptionHorizontal"
+		 	        android:layout_width="wrap_content"
+		 	  	 	android:layout_height="wrap_content"
+		 	  	 	android:layout_weight="1"
+		 	  	 	android:textColor="@color/white"
+		 	  	 	android:text="@string/horizontal" />
+		 	        </RadioGroup>
+		 	        
+					 	            <CheckBox
+                android:id="@+id/checkBox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:textColor="@color/white"
+                android:text="@string/empty" />
+			
+        </LinearLayout>
+	</LinearLayout>
+	
+	<FrameLayout 
+        android:id="@+id/FrameLayoutPicture"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:padding="10dp">
+		
+
+    
+        <ImageView 
+            android:id="@+id/ImageViewPicture"
+            android:contentDescription="@string/empty"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+        	android:scaleType="fitCenter"  />
+	</FrameLayout>
+
+</LinearLayout>
+
